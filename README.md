@@ -1,4 +1,4 @@
-# chanisa_seven
+# chanisa_cypress_web_demo
 
 
 This is a test demo testing project framework "Cypress".
