@@ -24,7 +24,7 @@ let data; //closure variable
 
    // 3. Click on Add customer
     cy.contains('Add Customer').should('be.visible')
-    cy.get('[ng-click="addCust()"').contains('Add Customer').click()
+    cy.get('[ng-click="addCust()"]').contains('Add Customer').click()
 
     // 4. Fill the information & add the new customer
     cy.contains('First Name :')
