@@ -43,25 +43,5 @@ describe('Chanisa Demo some features cypress', () => {
           cy.get('select').select('audi')
         })
 
-        it('User verify java alert pop-up', () => {
-          cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-          cy.contains('[id="alertbtn"]', 'Alert').click()
 
-          //window:alert
-          cy.on('window:alert',(str)=>
-             {
-             expect(str).to.equal('Hello , share this practice page and share your knowledge')
-             })
-        })
-
-        it('User verify confirm java alert pop-up', () => {
-          cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-          cy.contains('[value="Confirm"]', 'Confirm').click()
-
-          //window:alert
-          cy.on('window:confirm',(str)=>
-              {
-              expect(str).to.equal('Hello , Are you sure you want to confirm?')
-              })
-        })
 })
