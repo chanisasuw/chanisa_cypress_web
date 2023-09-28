@@ -11,5 +11,6 @@
   "state": "Vestland",
   "phone": "089383822",
   "ssn": "02929292",
-  "password": "secret_sauce"
+  "password": "secret_sauce",
+  "productName" : ["Blackberry", "Nokia Edge"]
 }
